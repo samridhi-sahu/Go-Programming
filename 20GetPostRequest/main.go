@@ -10,13 +10,13 @@ import (
 
 func main() {
 	//fmt.Println("Creating server")
-	//PerformGetRequest()
+	PerformGetRequest()
 	//PerformPostJsonRequest()
-	PerformPostformJsonRequest()
+	//PerformPostformJsonRequest()
 }
 
 func PerformGetRequest() {
-	const url = "http://localhost:8000/get"
+	const url = "http://localhost:3000/get"
 	response, err := http.Get(url)
 	if err != nil {
 		panic(err)

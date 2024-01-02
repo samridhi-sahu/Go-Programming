@@ -20,5 +20,6 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	// return html of website
 	fmt.Println("Data is : ", string(data))
 }
